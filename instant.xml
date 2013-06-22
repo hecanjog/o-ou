@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instant>
+  <ExportProfile>
+    <ExportTimespan format="MinSec">
+      <Range id="session"/>
+    </ExportTimespan>
+    <ExportChannelConfiguration split="false" channels="2">
+      <Channel number="1">
+        <Port name="master/audio_out 1"/>
+      </Channel>
+      <Channel number="2">
+        <Port name="master/audio_out 2"/>
+      </Channel>
+    </ExportChannelConfiguration>
+    <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+    <ExportFilename>
+      <Folder relative="true" path="/export"/>
+      <Field name="label" enabled="false"/>
+      <Field name="session" enabled="false"/>
+      <Field name="revision" enabled="false"/>
+      <Field name="time" enabled="false"/>
+      <Field name="date" enabled="false"/>
+    </ExportFilename>
+  </ExportProfile>
+  <ExportRevision revision="1"/>
+  <SelectionExportProfile>
+    <ExportTimespan format="Timecode">
+      <Range id="selection"/>
+    </ExportTimespan>
+    <ExportChannelConfiguration split="false" channels="2">
+      <Channel number="1">
+        <Port name="master/audio_out 1"/>
+      </Channel>
+      <Channel number="2">
+        <Port name="master/audio_out 2"/>
+      </Channel>
+    </ExportChannelConfiguration>
+    <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+    <ExportFilename>
+      <Folder relative="true" path="/export"/>
+      <Field name="label" enabled="false"/>
+      <Field name="session" enabled="false"/>
+      <Field name="revision" enabled="false"/>
+      <Field name="time" enabled="false" value="T_None"/>
+      <Field name="date" enabled="false" value="D_None"/>
+    </ExportFilename>
+  </SelectionExportProfile>
+  <Editor id="12" mixer-width="Wide" zoom-focus="ZoomFocusLeft" zoom="905.749604" snap-to="SnapToBeat" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapOff" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" playhead="2884672" left-frame="4821157" y-origin="273.000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" internal-edit="no" join-object-range="no" show-editor-mixer="no" show-editor-list="no" editor-list-page="0" show-marker-lines="no" nudge-clock-value="220500">
+    <geometry x-size="958" y-size="1060" x-pos="0" y-pos="18" edit-horizontal-pane-pos="895" notebook-shrunk="0" edit-vertical-pane-pos="714"/>
+    <Buttons>
+      <Press/>
+      <Release/>
+    </Buttons>
+    <Selection>
+      <RouteView id="390"/>
+      <RouteView id="462"/>
+      <RouteView id="5103"/>
+      <RouteView id="534"/>
+      <RouteView id="831"/>
+      <RouteView id="1808"/>
+      <AutomationView id="1808" parameter="gain"/>
+      <RouteView id="1880"/>
+      <RouteView id="2938"/>
+      <RouteView id="16608"/>
+    </Selection>
+    <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
+  </Editor>
+  <Mixer narrow-strips="no" show-mixer="yes">
+    <geometry x-size="958" y-size="1060" x-pos="960" y-pos="18" x-off="0" y-off="0" mixer-rhs-pane1-pos="447" mixer-list-hpane-pos="154"/>
+  </Mixer>
+</instant>
